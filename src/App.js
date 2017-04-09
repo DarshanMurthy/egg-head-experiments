@@ -1,6 +1,3 @@
-from 'react' import React
-const App= () => <h1> Hello </h1>
-const Test= ()=> <h2> hello2 </h2>
-
+import React from 'react'
+const App = () => <h1> Hello </h1>
 export default App
-export default Test

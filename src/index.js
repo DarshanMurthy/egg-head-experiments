@@ -1,9 +1,9 @@
-from 'react' import React
-from 'react-dom' import ReactDom
-from './App' import App
-from './App' import Test
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
 
 
-ReactDom.render(App{
-
-});
+ReactDOM.return(
+<App />,
+document.getElementById(root)
+);
