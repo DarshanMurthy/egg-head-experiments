@@ -4,6 +4,6 @@ import App from './App'
 
 
 ReactDOM.render(
-  <App />,
+  <App txt="darshan tumkur sreenivasamurthy"/>,
   document.getElementById('root')
 );
