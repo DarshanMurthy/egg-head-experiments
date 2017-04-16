@@ -4,7 +4,7 @@ import {Component} from 'react'
 
 class App extends Component{
   render(){
-    return(<h1> Hello </h1>);
+    return(<h1> Hello Test; i will become the best leader one day :) </h1>);
   }
 }
 
