@@ -10,8 +10,19 @@ class App extends Component{
 
     }
   }
+
+  update(e){
+    this.setState({txt: e.target.value})
+
+  }
+
   render(){
-    return(<h1> this.state.txt </h1>);
+    return(
+      <div>
+      <h1> {this.state.txt} </h1>
+      <input type="text" onChange={this.update.bind(this)}/>
+      </div>
+   );
   }
 }
 
